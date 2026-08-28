@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-08-28T12:10:33 CEST" name="Suite" finished-at="2026-08-28T12:10:42 CEST" duration-ms="8751">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qabrain.qa.testrunner.QABrainHomeTestRunner@4c39bec8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-08-28T12:10:33 CEST" name="Test" finished-at="2026-08-28T12:10:42 CEST" duration-ms="8751">
+      <class name="com.qabrain.qa.testrunner.QABrainHomeTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.qabrain.qa.testrunner.QABrainHomeTestRunner@4c39bec8]" started-at="2026-08-28T12:10:33 CEST" name="setUpClass" finished-at="2026-08-28T12:10:33 CEST" duration-ms="324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@39ab59f8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.qabrain.qa.testrunner.QABrainHomeTestRunner@4c39bec8]" started-at="2026-08-28T12:10:33 CEST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-08-28T12:10:42 CEST" duration-ms="8349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the QABrain Home Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validate QABrain Home Website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.qabrain.qa.testrunner.QABrainHomeTestRunner@4c39bec8]" started-at="2026-08-28T12:10:42 CEST" name="tearDownClass" finished-at="2026-08-28T12:10:42 CEST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.qabrain.qa.testrunner.QABrainHomeTestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
